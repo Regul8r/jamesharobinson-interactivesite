@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>InterAct</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+
+    <h1 id="userName"> Hello</h1>
+
+    <p id="paragraph">Please write a brief message</p><br>
+
+<p>
+    <label>Enter your message:</label>
+    <input type="text" id="userMessage" placeholder="Message"></input>
+    <button onclick="briefMessage();">Click me!</button>
+</p>
+
+<br>
+<label>Enter your name:</label>
+<input type="text" id="userInput" placeholder="Name"></input>
+<button onclick="sayHelloByName();">Click me!</button>
+
+<br>
+<label>Pick a Color: </label>
+<select name="colors" onchange="changeColor(this)">
+    <option value="yellow" selected="select">Yellow</option>
+    <option value="blue">Blue</option>
+    <option value="orange">Orange</option>
+    <option value="red">Red</option>
+
+  <br>
+
+    <div>
+      <h1>To-Do List</h1>
+      <label>Enter Item : <input id="add_item" class="input1" placeholder="Item" /></label>
+      <button onclick="add_to_list()" class="button">Add Item</button>
+      <div>
+          <ol id="addol"></ol>
+      </div>
+  </div>     
+      
+  <script src="script.js"></script> 
+    
+</body>
+
+</html>
