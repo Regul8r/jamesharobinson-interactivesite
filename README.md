@@ -25,10 +25,4 @@ These interactions are handled using JavaScript functions and HTML event listene
 - **page.css**: Styles the elements with custom fonts and colors.
 - **script.js**: Contains JavaScript functions that enable interactivity.
 
-## Setup Instructions
 
-To run this project locally:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/interact-project.git
